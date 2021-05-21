@@ -1,0 +1,43 @@
+
+		h1{
+			background-color : red ; 
+		}
+
+		h2{
+			background-color: blue;
+		}
+
+		p{
+			background-color: yellow;
+		}
+
+		#pera1{
+			font-size: 24px;
+			color: green;
+			border: 2px solid black;
+			width: 200px;
+			height: 100px;
+
+
+
+		}
+
+		.class1{
+			border-width: 2px;
+			border-style: solid;
+			border-color: red;
+
+			border: 2px solid red; 
+		}
+
+		h3{
+			color: blue;
+			font-size: 28pt;
+		}
+
+
+
+
+		p{
+			background-color: red;
+		}
