@@ -1,68 +1,462 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+    <title>ID</title>
+    <!-- <link rel="stylesheet" type="text/css" href="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\design.css"> -->
 
+    <style type="text/css">
+        *{
+        margin: 0;
+        padding:0 
 
-    .d{
-        border: 2px solid blue;
-        /*display: flex;*/
-        background-color: aqua;
-        height: 539px;
-        width: 1021px;
-        /*left: 40%;*/
-        /*margin-left: auto; */
-        /*border-radius: 207px; */
-        border-top-left-radius: 24% 50%;
-        border-bottom-left-radius: 24% 50%;
+    }
+    header{
+        display: block;
+        position: fixed;
+    }
+   header h1 {
+           border: 1px solid block;
+           text-align: center;
+           width: 100%;
+           height: 80px;
+           font-size: 28pt;
+           line-height: 50px;
+           font-weight: 200;
+           background-color: red;
 
+    }
+  nav{
+        /*background-color: yellow; */
+        width: 100%;
+        height:60px;
+        position: fixed;
+
+     }
+    nav ul{
+        border:1px solid brown ;
+        width: 100%;
+        height:100%;
+        background-color:#00ffff;
+        display: inline-flex; 
+     }
+   nav ul  li {
+        width: 120px;
+        list-style-type: none;
+        color: blue; 
+        text-align: center;
+        font-size: 14pt; 
+        line-height: 50px;
+        text-decoration: none; 
+        text-transform: capitalize;
+        letter-spacing: 1px;  
+        font-weight: 200;
+        border-collapse: separate;
+        border-radius: 25px;
+         }
+
+           #icon{
+            height: 50px;
+            width: 100px;
+            margin: 5px;
+         }
+         .search{ 
+            
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            width: 25px;
+            height: 40.5px;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+         }
+        nav ul input{
+            border:0px;
+                    border-bottom-left-radius: 10px;
+                    border-top-left-radius: 10px;
+                    background-color:#E4E4E4;
+                    margin-left:10px;
+                    margin-top:10px;
+                    margin-bottom: 10px;
+                    padding-top:2px;
+                    padding-left:5px;
+                    width: 515px;
+                    padding-bottom:5px;
+                    font-weight:bold;
+                    color:#858585;
+                    float:left;
+            background-color:#E4E4E4;
+            font-weight: bold;
+            color:#858585;
+                
+         }
+
+          nav ul  ul {
+               display: none;
+               width: 100%;
+           }
+        nav ul li:hover ul {
+            display: block;
+            
+            }
+        nav ul  ul li {
+             background-color:#E4E4E4; 
+            border: 1px solid block;    
+         }
+         /*.........2nav................*/
+        #nnnav {
+            width: 100%;
+            height: 100%;
+            float: left;
+
+         }
+         #nnav{
+                 background-color: yellow;
+                 border: 1px solid block
+                 padding:0 auto;
+                 height: 70px;
+         }
+         #nnav li{
+            width: 125px;
+            height: 50px;
+            margin: 10px;
+        list-style-type: none;
+        color: black; 
+        text-align: center;
+        font-size: 14pt; 
+        line-height: 50px;
         float: right;
+        text-decoration: none; 
+        text-transform: capitalize;
+        letter-spacing: 1px;  
+        font-weight: 200;
+         }
+        #nnav li:hover {
+            background-color: #E4E4E4;
 
-    }
-    .d div h1{
-        text-align: center;
-        /*border: 2px solid red;*/
-    }
-    .d .input{
-        /*border: 2px solid red;*/
-        justify-content: center;
-        text-align: center;
+         }
 
+         /*nav complete*/
 
-    }
+         h4{
+            background-color:red;
+         }
+         /*............section...................*/
+         section h2{
+            font-synthesis: 22pt;
+            background-color: #00ff66;
+            text-align: center;
+         }
+         #home div{
+            width: 100%;
+            height: 2500px;
+            border: 2px solid #fff;
+         }
+         #home div img{
+            width: 100%;
+            height: 350px;
+            margin: 1px;
+            
+         }
+          #home div div{
+            border: 2px solid #adff2f;
+            height: 348px;
+            width: 340px;
+            background-color: #00ffff;
 
+          }
+          #home div div h1{
+            font-size: 12pt;
+            line-height:15px; 
+            font-weight: 25px;
+            text-align: center;
+            text-transform: uppercase;
+          }
+         #home div div img {
+            width: 333px;
+            height: 300px;
+            margin-right: 1px; 
+            margin-left: 1px;
+            
+         }
+         #home div div h3 button{
+            height: 20px;
+            width: 60px;
+            background-color: blue;
+         }
+         #container{
+           display: flex;
+
+          }
+      #container-1{
+        display: flex;
+
+      }
+      #contain-2{
+        display: flex;
+      }
+       #contain-3{
+        display: flex;
+      }
+       
+         #about div h1{
+            width: 100%;
+            height: 500px;
+            /*background-image:url(billing.png) no-repeat center; */
+         }
+         #about div img{
+              width: 100%;
+            height: 250px;
+            margin: 1px;
+         
+         }
+         #about div p{
+            margin: 2px;
+            margin-right: 2px;
+            margin-left: 2px;
+            font-size: 12pt;
+            line-height:15px; 
+            font-weight: 25px;
+            
+            padding: 3px;
+        }
+         #contact div{
+            height: 500px;
+            width: 100%;
+         }
+         #service div h1{
+            background-image: url(billing.png) no-repeat center;
+            width: 100%;
+            height: 400px;
+         }
     </style>
 </head>
 <body>
+    <header>
+        <h1 style="background-color: ">Apna Sweet's</h1>
+    </header>
+    <nav>
+        <ul> 
+            <img id="icon" src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\logo2.jpeg">
+            <a href="#home"><li>Home<ul></a>
+                <li>Frash</li>
+                <li>Panty</li>
+                <li>Funzon</li>
+                <li>Deals</li>
+                <li>Sell</li>
+                <li>Wish List</li>
+            </ul></li>
+            <a href="#about"><li>About<ul></a>
+                <li>Introduction</li>
+                <li>Discribe</li>
+                <li>Details</li>
+                <li>Update Product</li>
+                <li>All Material</li>
+            </ul></li>
+            <a href="#contact"><li>Contact<ul></a>
+                <li>Phone No</li>
+                <li>Gmail</li>
+                <li>Twitter</li>
+                <li>Telegram</li>
+                <li>Linkend</li>
+                <li>Instagram</li>
+            </ul></li>
+            <a href="#service"><li>Service<ul></a>
+                <li>News</li>
+                <li>Sport</li>
+                <li>Education</li>
+                <li>Branch</li>
+                <li>Syllabus</li>
+                <li>Scheme</li>
+            </ul></li>
+            <input type="search" name="search" value="search">
+            <img class="search" src="searchicon.png">
+            <li>Sign in</li>
+            <img id="del" src="delete product.png">
+        </ul>
+    </nav>
+    <!-- <nav id="nnnav" >
+        <ul id="nnav">
+            <li>Sweet's</li>
+            <li>Choocelet's</li>
+            <li>Cake's</li>
+            <li>Dellices_Sweet's</li>
+            <li>Oders</li>
+            <li>Billing</li>
+            <li>Exchange</li>
+            <li>Return</li>
+            <li>Rewaed</li>
+            
+        </ul>
+    </nav> -->
    
-        <div style="width: 100%;display: inline-flex;">
-            <div style=" width:30%">
-                <i></i>
-                <h1>hiii</h1>
-                <p></p>
-            </div>
-            <form class="d" >
-                <div style="width: 70%">
-                    <div >
-                        <h1> helllo</h1>
-                    </div>
+    <!--                       Section       -->
+    <main>
+   <div>
+       <h4> <marquee  behavior="scroll" direction="right" scrollamount="15"><span >&#128516 Orders booked after 2021 onwards would be deliver  &#128525Orders booked after onwards would be deliver</span></marquee>
+            <marquee behavior="scroll" direction="left" scrollamount="15">&#128516 Orders booked after 2021 onwards would be deliver  &#128525Orders booked after onwards would be deliver</marquee> 
+          </h4>
+   </div>   
+        <section id="home">
 
-                    <div class="input">
+            <h2>Home</h2>
+             <!--            Section start       -->
+                 <div>
+                      <img  src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\2.jpg">
+                      <img src="C:\Users\sanjay chourasiya\Desktop\web\image\one.jpg">
+                      <img  src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\sweet5.jpg">
 
-                        <input type="" name="">
-                        <input type="" name="">
-                            <br>
-                        <input type="" name="">
-                        <input type="" name="">
+                <!-- image part-1 -->
 
-                    </div>
+                   <div id="container"> 
+                   <div>
+                       <h1>MIX BITES</h1>
+                       <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s12.jpg">
+                       <h3 style="text-align: center"><button >Seemore</button>RS-400/</h3> 
+                   </div>
+                <div>
+                      <h1>ALMOND SANDWICH</h1>
+                      <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s14.jpeg"> 
+                      <h3 style="text-align: center"><button>Seemore</button>RS-180</h3>
+                </div> 
+                <div>
+                     <h1>RASHGULE</h1>
+                     <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\1.jpg"> 
+                     <h3 style="text-align: center"><button>Seemore</button>RS-250/</h3> 
+                 </div>    
+                 <div>
+                     <h1>COCONUT SOHAN PAPDI</h1>
+                     <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s11.jpg"> 
+                     <h3 style="text-align: center"><button>Seemore</button>RS-350/</h3>
+                 </div> 
+                 </div>
+
+                 <!--           image part-2      -->
+                  <div id="container-1"> 
+                   <div>
+                       <h1>DRY FRUITS BITES</h1>
+                       <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s13.jpeg">
+                       <h3 style="text-align: center"><button >Seemore</button>RS-350/</h3> 
+                   </div>
+                <div>
+                      <h1>CARDAMOM SOHAN PAPDI</h1>
+                      <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s17.jpeg"> 
+                      <h3 style="text-align: center"><button>Seemore</button>RS-180/</h3>
+                </div> 
+                <div>
+                     <h1>ALMOND SANDWICH</h1>
+                     <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s14.jpeg"> 
+                     <h3 style="text-align: center"><button>Seemore</button>RS-200/</h3> 
+                 </div>    
+                 <div>
+                     <h1>MOONG DRY FRUIT LADDU</h1>
+                     <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\ck1.jpg"> 
+                     <h3 style="text-align: center"><button>Seemore</button>RS-250/</h3>
+                 </div>
                 </div>
-            </form>
+                   
+                   <!--         image part -3       -->
+                 <div id="contain-2"> 
+                     <div>
+                     <h1>MOONG DRY FRUIT LADDU</h1>
+                     <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s15.jpeg"> 
+                     <h3 style="text-align: center"><button>Seemore</button>RS-250/</h3>
+                 </div>
+                  <div>
+                     <h1>MOONG DRY FRUIT LADDU</h1>
+                     <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s15.jpeg"> 
+                     <h3 style="text-align: center"><button>Seemore</button>RS-250/</h3>
+                 </div>
+                  <div>
+                     <h1>MOONG DRY FRUIT LADDU</h1>
+                     <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s15.jpeg"> 
+                     <h3 style="text-align: center"><button>Seemore</button>RS-250/</h3>
+                 </div>
+                  <div>
+                     <h1>MOONG DRY FRUIT LADDU</h1>
+                     <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s15.jpeg"> 
+                     <h3 style="text-align: center"><button>Seemore</button>RS-250/</h3>
+                 </div>
+                </div>
 
-        </div>
+                <!--                 image part-3                -->
+                <div id="contain-3"> 
+                     <div>
+                     <h1>MOONG DRY FRUIT LADDU</h1>
+                     <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s15.jpeg"> 
+                     <h3 style="text-align: center"><button>Seemore</button>RS-250/</h3>
+                 </div>
+                  <div>
+                     <h1>MOONG DRY FRUIT LADDU</h1>
+                     <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s15.jpeg"> 
+                     <h3 style="text-align: center"><button>Seemore</button>RS-250/</h3>
+                 </div>
+                  <div>
+                     <h1>MOONG DRY FRUIT LADDU</h1>
+                     <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s15.jpeg"> 
+                     <h3 style="text-align: center"><button>Seemore</button>RS-250/</h3>
+                 </div>
+                  <div>
+                     <h1>MOONG DRY FRUIT LADDU</h1>
+                     <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s15.jpeg"> 
+                     <h3 style="text-align: center"><button>Seemore</button>RS-250/</h3>
+                 </div>
+                        <!-- <strong><p style="letter-spacing: 1px ">Candy, also called sweets (British English) or lollies (Australian English, New Zealand English), is a confection that features sugar as a principal ingredient. The category, called sugar confectionery, encompasses any sweet confection, including chocolate, chewing gum, and sugar candy.</p></strong> -->
+                    
+            </div>
+            </div>
+        </section><section id="billing">
+            <h2>Billing</h2>
+            <div>
+                 <h1>head</h1> 
+            </div>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <div>
+                <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\3.jpg">
+                <p>
+                 pleasing to the mind or feelings : agreeable, gratifying â€”often used as a generalized term of approvalhow sweet it is. b : marked by gentle good humor or kindliness a sweet disposition. c : fragrant a sweet aroma. d(1) : delicately pleasing to the ear or eye a sweet melody.sweet Food thatâ€™s sweet is full of sugar, bad for your teeth, but oh so tasty. People who are sweet are super nice, like that sweet lunch lady who gives you an extra cookie. Sweet can be an adjective or a noun. It can describe something pleasing to the senses, like a sweet song, or when you're playing basketball and get nothing but net. Sweet! As a noun, it's a confection, a little something for dessert. The poet Khalil Gibran said, â€œFriendship is always a sweet responsibility, never an opportunity.â€  Donâ€™t opportunistically take your friends for granted, or you could become the target of some sweet revenge.
+              <h3> Get 10% off your order</h3>
+              <label>Enter your email address to get a 10% off code to use today!</label><br>
+              <input type="email" name="Enter-Email" placeholder="Enter Email" required=""> <br>
+               <input type="submit" name="" placeholder="Submit">
+              </p>
+                <!-- <img  src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\sweet.jpg">
+                <img  src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\sweet3.jpg">
+                <div>
+    
+                <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\s12.jpg">
+                <!-<h3><button>Seemore</button></h3><div> --> 
+                 <!-- <img src="C:\Users\sanjay chourasiya\Desktop\web\image\029.jpg"> -->
+                <!-- <h3><button>Seemore</button></h3><div> -->
+                 <!-- <img src="C:\Users\sanjay chourasiya\Desktop\web\yaranasweetshop_files\1.jpg">  -->
+                <!-- <h3><button>Seemore</button></h3><div> -->
+                <!-- <img src="C:\Users\sanjay chourasiya\Desktop\web\image\028.jpg"> -->
+                <!-- <h3><button>Seemore</button></h3><div> -->
+                <!-- <strong><p style="letter-spacing: 1px ">Candy, also called sweets (British English) or lollies (Australian English, New Zealand English), is a confection that features sugar as a principal ingredient. The category, called sugar confectionery, encompasses any sweet confection, including chocolate, chewing gum, and sugar candy.</p></strong></div> -->
+            </div>
+        </section>
+        <section id="service">
+            <h2>Service</h2>
+            <div>
+                <h1></h1>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div>
+                <h1>he Journey Started In 2020 And We Outshined As A Recognized Manufacturer & Seller Of High Quality Food Products. SWEETS Has Evolved As A Premier Brand For Delicious Sweets And Namkeens. Our Products Include The Finest Ingredients Such As Pure Ghee (Butter) And Fresh Milk Prepared Under Hygienic Conditions Which Gives Us A Distinct Identity. From Time-To-Time, We Keep On Innovating With Our Products To Cater To Our Beloved Customers Aspirations
+
+Address
+B6/22, 1st Floor, Chappan, Indore (Madhya Pradesh) 451010, INDIA
+Shope Enquiry
+Mobile 9584145211
+Email divyachourasiya@gmail.com
+PRIVACY POLICY | TERMS AND CONDITIONS | BLOG</h1>
+            </div>
+        </section>
+        
+
+    </main>
 </body>
 </html>

@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>nav</title>
+<!-- 	<link rel="stylesheet" type="text/css" href="foldername/filename.extention"> -->
 	<style type="text/css">
 		*{
 			margin: 0;
@@ -97,9 +98,66 @@
 		#contact form input{
 			width: 300px;height: 25px;
 		}
+		/*#head{
+			width: 200px;
+			height: 200px;
+
+
+	-->		margin: 20px;
+
+	-->		margin-top: 10px;
+			margin-right: 20px;		
+			margin-bottom: 10px;
+			margin-left: 20px;	
+
+	-->		margin: 20px 10px ;
+
+	-->		margin: 5px 8px 0 12px;
+
+	
+		}*/
+
+		#card{
+			width: 300px;
+			height: auto;
+			text-align: center;
+			justify-content: center;
+			margin: auto;
+			/*border: 2px solid black;*/
+			margin-top: 20px;
+			padding: 10px;
+			background-color: yellow;
+			box-sizing: border-box;
+			box-shadow: 10px 20px 10px grey; 
+			border-radius: 20px;
+
+		}
+		#card h1{
+			font-size: 14pt;
+		}
+		#card p{
+			width: 95%;
+			height: auto;
+		}
+		#card button{
+			width: 80%;
+			height: 25px;
+			font-size: 14pt;
+			background-color: blue;
+		}
+		#services{
+			background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+
 	</style>
 </head>
 <body>
+
+		<!-- <h1 id="head"> this is head </h1> -->
+
+
 		<nav>
 		<ul>
 			<a href="#home"><li>home</li></a>
@@ -188,11 +246,35 @@
 				<input type="password" name="" placeholder="">
 				<br>
 
+				<label>file</label>
+				<input type="file" name="">
+				<br>
+
+				<input type="radio" name="">
+				<input type="radio" name="">
+				<br>
+
+				<input type="checkbox" name="">
+				<input type="checkbox" name="">
+				<input type="checkbox" name="">
+				<br>
+
 				<!-- <button> submit</button> -->
 				<input type="submit" name="" value="click">
+				<br>
+
+				<label>course</label>
+				<select>
+					<option>js</option>
+					<option>c</option>
+					<option>C++</option>
+					<option>python</option>
+				</select>
+
 
 				<p>alred user ..? <a href=" ">click</a></p>
 
+				
 			</form>
 
 	</section>
@@ -201,12 +283,23 @@
 			
 			<h1>help</h1>
 
+			<div id="card">
+				<h1>title</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button>click me</button>
+			</div>
+
 	</section>
 
 	<section id="services">
 			
 			<h1>services</h1>
-
+			<p>immages is in background</p>
 	</section>
 	
 
