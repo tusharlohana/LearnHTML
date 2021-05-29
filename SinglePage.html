@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>nav</title>
+
 <!-- 	<link rel="stylesheet" type="text/css" href="foldername/filename.extention"> -->
 	<style type="text/css">
 		*{
@@ -116,6 +117,11 @@
 
 	
 		}*/
+		#help{
+			background-image: url(img/bg2.png);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
 
 		#card{
 			width: 300px;
@@ -126,10 +132,14 @@
 			/*border: 2px solid black;*/
 			margin-top: 20px;
 			padding: 10px;
-			background-color: yellow;
+			background-color: rgba(255,255,255, 0.4);
+			backdrop-filter : blur(2px);
+
 			box-sizing: border-box;
-			box-shadow: 10px 20px 10px grey; 
+			/*box-shadow: 10px 20px 10px grey; */
 			border-radius: 20px;
+
+
 
 		}
 		#card h1{
@@ -141,9 +151,18 @@
 		}
 		#card button{
 			width: 80%;
-			height: 25px;
+			height: 30px;
+			-ms-height:30px;
+			-webkit-height:30px;
+			-
 			font-size: 14pt;
 			background-color: blue;
+			border: none;
+			border-radius: 25px;
+		}
+		#card button:hover{
+			border: 5px solid green;
+			color: #fff;
 		}
 		#services{
 			background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg);
@@ -161,9 +180,9 @@
 		<nav>
 		<ul>
 			<a href="#home"><li>home</li></a>
-			<a href="#about"><li>about us</li></a>
+			<a href="about.html"><li>about us</li></a>
 			<a href="#contact"><li>contact</li></a>
-			<a href="#help"><li>Help</li></a>
+			<a href="help.html"><li>Help</li></a>
 			<a href="https://www.amazon.com/"><li>services</li></a>
 
 		</ul>
@@ -300,6 +319,10 @@
 			
 			<h1>services</h1>
 			<p>immages is in background</p>
+
+
+			<input type="" name="" placeholder="Search...">
+			<button><i class="fa fa-search" aria-hidden="true"></i></button>
 	</section>
 	
 
